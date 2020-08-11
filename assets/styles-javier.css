@@ -1,0 +1,147 @@
+:root {
+  --color-primary: #525c6f;
+  --color-secondary: #ed696b;
+  --color-primary-hover: #8997ac;
+  --color-secondary-hover: #c13739;
+  --color-info: #d6e4f6;
+  --color-warning: #fbdeda;
+  --color-box-background: #fafafa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  background-color: var(--color-box-background);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 400;
+  color: var(--color-primary-hover);
+}
+
+::-moz-placeholder {
+  font-weight: 400;
+  color: var(--color-primary-hover);
+}
+
+/* ---------------- HEADER RIGHT ----------------- */
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 300px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a {
+  margin-right: 20px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+nav .nav-right-section a:hover {
+  color: var(--color-primary-hover);
+}
+
+nav .nav-right-section img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+/* ---------------- LOGO ----------------- */
+main {
+  margin-top: 80px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  width: 320px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+/* ---------------- INPUTS ----------------- */
+
+main .main-input h1 {
+  margin: 50px 0 50px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-secondary);
+}
+
+main .main-input-container {
+  margin: 20px 0 20px 0;
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input input {
+  padding: 0 20px 0 20px;
+  width: 525px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+main .main-buttons button {
+  background-color: var(--color-secondary);
+  padding: 0 20px 0 20px;
+  width: 525px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--color-box-background);
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+main .main-buttons button:hover {
+  background-color: var(--color-secondary-hover);
+}
