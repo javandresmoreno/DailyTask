@@ -145,3 +145,11 @@ main .main-buttons button {
 main .main-buttons button:hover {
   background-color: var(--color-secondary-hover);
 }
+
+/* ---------------- PICTURE ----------------- */
+
+.picture-decorative {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
